@@ -1,5 +1,7 @@
 #!/usr/bin/ruby ruby 
 
+require_relative '../lib/poke-cli.rb'
+
 require "bundler/setup"
 require "my/cli"
 
