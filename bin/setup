@@ -1,8 +1,12 @@
-#!/usr/bin/env bash
+#!/usr/bin/ruby ruby
 set -euo pipefail
 IFS=$'\n\t'
 set -vx
 
 bundle install
+
+require_relative '../lib/poke-cli.rb'
+
+#Cli.new.run
 
 # Do any other automated setup that you need to do here
